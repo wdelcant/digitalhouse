@@ -1,0 +1,11 @@
+
+
+
+
+@for $i from 1 through 8 {
+  $imagen: 'img/' + $i + '.jpeg';
+  &:nth-child(#{$i}) &__imagen {
+    background-image: url($imagen);
+  }
+}
+

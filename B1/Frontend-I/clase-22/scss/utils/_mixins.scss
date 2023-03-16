@@ -1,0 +1,40 @@
+/* Importación de las funciones de lista de la biblioteca sass. */
+@use 'sass:math';
+@use 'sass:list';
+
+@mixin font-size($size) {
+  font-size: math.div($size, 16) * 1rem;
+}
+
+@mixin container($padding: 40px 0) {
+  width: 90%;
+  max-width: $desktop;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: $padding;
+}
+
+@mixin media {
+  @media (min-width: $media) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $min-tablet), (max-width: $max-tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-up($breakpoint) {
+  $breakpoint-value: map-get($grid-breakpoints, $breakpoint);
+  @media (min-width: $breakpoint-value) {
+    @content;
+  }
+}

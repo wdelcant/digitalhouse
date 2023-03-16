@@ -1,0 +1,73 @@
+// fonts
+
+$font: Arial, Helvetica, sans-serif;
+
+// fonts size
+
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: 0.875rem;
+
+// font weight
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// line height
+
+$line-height-base: 1.5;
+
+// colors
+
+$primary: #8b8b8b;
+$bg-primary: #03faee;
+$bg-secondary: #f8f8f8;
+
+// grid breakpoints
+
+$breakpoint: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$breakpoint-value: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+//shadow
+$shadow: #92f7f2;
+
+// box shadow
+
+$box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+// border radius
+
+$border-radius: 0.25rem;
+
+// media query
+
+$mobile: 500px;
+$min-tablet: 501px;
+$max-tablet: 819px;
+$media: 820px;
+$desktop: 1280px;
+

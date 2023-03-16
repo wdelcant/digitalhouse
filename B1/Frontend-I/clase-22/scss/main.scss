@@ -1,0 +1,12 @@
+/* Importación de los archivos render.scss, mixins.scss y variables.scss. */
+@import 'utils/render';
+@import 'utils/mixins';
+@import 'utils/variables';
+
+// components
+@import 'components/nav';
+
+// layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+
